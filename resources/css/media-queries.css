@@ -1,0 +1,144 @@
+/**big tables to smaller screen*/
+
+@media only screen and (max-width:1200px){
+   html,
+   body{
+       font-size:14px ;
+    }
+   .about-para{
+    margin-bottom:20px;
+    }
+   .section-heading,
+   .packages-heading,
+    .contact-heading,
+   .textnimonial-heading {
+     /*margin-top: 50px;*/
+     margin-bottom: 15px;
+     padding-top: 80px;
+     }
+
+     .section-sub-heading{
+        margin-bottom: 20px;
+        line-height: 1.2;
+    }
+}
+/**smaller tables to larger screen*/
+@media only screen and (max-width:1023px){
+    html,
+    body{
+        font-size:12px ;
+     }
+     .row{
+         padding: 0 2%;
+     }
+     .main-nav{
+        margin-top: 40px;
+        padding-left: 60%;
+    }
+     .about-box{
+        margin-top: 60px;
+    }
+    .about-box:first-child{
+        padding:0;
+        padding-left: 5%;
+    }   
+    .laptop-image{
+        padding-right: 5%;
+    }
+    footer{
+        padding: 30px;
+    }  
+    footer p{
+        margin-top: 20px;
+        line-height: 1.3;
+    }
+    .main-nav li{
+        margin-right: 30px;
+    }   
+}
+/**larger phone  to smaller tables screen*/
+@media only screen and (max-width:767px){
+    html,
+    body{
+        font-size:10px ;
+     }
+     .header-text-box{
+         margin-bottom:50px;
+     }
+     .about-heading{
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .section-heading,
+   .packages-heading,
+    .contact-heading,
+   .textnimonial-heading {
+     margin-top: 60px;
+     margin-bottom: 10px;
+     padding-top: 50px;
+      }
+    .contact-heading{
+        margin-top: 80px;
+        margin-bottom:40px ;
+        }
+    .section-sub-heading{
+         margin-bottom:15px auto 0 auto;
+       }  
+    .textnimonial-heading{
+        color: #fff;
+        margin-bottom:10px;
+      }
+      .main-nav{
+        margin-top: 30px;
+        padding-left: 50%;
+    }
+    .main-nav li{
+        margin-right: 30px;
+    }   
+}
+/**smaller to larger phone screen*/
+@media only screen and (max-width:480px){
+    .laptop-image{
+        padding:0;
+        margin:0 auto;
+    }
+    .about-box:last-child{
+        text-align:center;
+    }
+
+    .about-box:first-child{
+        text-align:center;
+        padding:0 5%;
+    }
+    .span_1_of_4 {
+        width: 45%; 
+        margin-bottom:20px;
+    }
+    .span_1_of_3{
+        padding:0 10%;
+        margin-bottom:5px;
+    }
+    .contact-form{
+        width: 100%;
+        text-align: left;
+    }
+    .contact-label{
+        padding-left:0;
+    }
+    .footer-nav,
+    .social-link{
+        float:none;
+        text-align:center;
+        margin-bottom: 10px;
+        }
+    .main-nav{
+            margin-top: 20px;
+            padding-left: 50%;
+        }
+    .main-nav li{
+            margin-right: 20px;
+        }    
+    .work-portfolio li{
+            width:50%;
+    }    
+}
